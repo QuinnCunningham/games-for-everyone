@@ -3,7 +3,7 @@ html {
 }
 
 body {
-
+    background:url('/media/background.jpg') no-repeat center;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -28,32 +28,32 @@ body {
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
+    background: grey;
+    color: blue;
     min-width: 260px;
 }
 
-.btn-black {
-    background: black;
-    color: white;
+.btn-grey {
+    background: grey;
+    color: blue;
 }
 
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
+.btn-grey:hover,
+.btn-grey:active,
+.btn-grey:focus {
     background: #222;
-    color: white;
+    color: blue;
 }
 
-.text-black {
+.text-grey {
     color: #000 !important;
 }
 
-.border-black {
-    border: 1px solid black !important;
+.border-grey {
+    border: 1px solid grey !important;
 }
 
 /* -------------------------------- Media Queries */
